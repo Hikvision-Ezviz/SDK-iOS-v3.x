@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'EzvizOpenSDK'
-  s.version      = '3.0'
+  s.version      = '3.1'
   s.summary      = 'Ezviz Open SDK '
   s.homepage     = 'https://open.ys7.com'
   s.license      = 'MIT'
