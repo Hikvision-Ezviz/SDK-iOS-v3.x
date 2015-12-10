@@ -13,3 +13,9 @@ pod 'EzvizOpenSDK', '~> 3.1'
 ```
 pod 'openssl-static-library', '~> 1.0'
 ```
+##开发文档下载
+[开发文档](https://open.ys7.com/download/ios/ezviz_ios_doc_20151208.rar)
+##Demo项目下载
+[Demo项目](https://open.ys7.com/download/ios/ezviz_ios_demo_20151208.zip)
+##沟通交流
+[萤石社区](http://bbs.ys7.com/forum-176-1.html)
