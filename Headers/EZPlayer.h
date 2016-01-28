@@ -14,8 +14,8 @@
 /**
  *  预览清晰度
  */
-typedef NS_ENUM(NSInteger, EZVideoQuality)
-{
+typedef NS_ENUM(NSInteger, EZVideoQuality){
+    
     EZVideoQualityLow    = 0,  //流畅
     EZVideoQualityMiddle = 1,  //均衡
     EZVideoQualityHigh   = 2   //高清
@@ -44,17 +44,6 @@ typedef NS_ENUM(NSInteger, EZVideoQuality)
  *  @return EZPlayer对象
  */
 + (instancetype)createPlayerWithUrl:(NSString *)url;
-
-/**
- *  根据IP地址和登录密码构造EZPlayer对象（用来处理局域网预览）
- *
- *  @param ip       IP地址
- *  @param password 设备登录密码，如果设备注册过平台密码是userId，否则就是设备的验证码。
- *
- *  @return EZPlayer对象
- */
-+ (instancetype)createPlayerWithIP:(NSString *)ip
-                          password:(NSString *)password;
 
 /**
  *  销毁EZPlayer

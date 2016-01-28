@@ -31,7 +31,7 @@
  */
 @property (nonatomic, copy) NSString *downloadPath;
 /**
- *  云存储图片加密密码，如果是@""或者nil指针则图片不加密
+ *  云存储图片加密密码，如果是[NSNull null]或者nil指针则图片不加密
  */
 @property (nonatomic, copy) NSString *encryption;
 

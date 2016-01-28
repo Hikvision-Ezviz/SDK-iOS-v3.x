@@ -54,5 +54,9 @@
  *  是否开启活动检测
  */
 @property (nonatomic) BOOL isDefence;
+/**
+ *  视频清晰度
+ */
+@property (nonatomic) NSInteger videoLevel;
 
 @end

@@ -55,7 +55,7 @@
  */
 @property (nonatomic) NSInteger viewedCount;
 /**
- *  收藏ID
+ *  收藏编号
  */
 @property (nonatomic, copy) NSString *favoriteId;
 /**

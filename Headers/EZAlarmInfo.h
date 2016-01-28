@@ -15,6 +15,14 @@
  */
 @property (nonatomic, copy) NSString *alarmId;
 /**
+ *  设备序列号
+ */
+@property (nonatomic, copy) NSString *deviceSerial;
+/**
+ *  通道号
+ */
+@property (nonatomic) NSInteger channelNo;
+/**
  *  报警名称
  */
 @property (nonatomic, copy) NSString *alarmName;
@@ -44,5 +52,11 @@
  *  报警录像开始时间提前偏移量，通过alarmStartTime减去提前偏移量获得报警录像的具体开始时间
  */
 @property (nonatomic) NSInteger preTime;
+
+/**
+ *  4530 扩展字段
+ */
+@property (nonatomic, copy) NSString *customerType;
+@property (nonatomic, copy) NSString *customerInfo;
 
 @end

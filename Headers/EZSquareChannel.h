@@ -11,15 +11,15 @@
 @interface EZSquareChannel : NSObject
 
 /**
- *  分类编号
+ *  频道编号
  */
 @property (nonatomic) NSInteger id;
 /**
- *  分类等级
+ *  频道等级
  */
 @property (nonatomic) NSInteger level;
 /**
- *  分类名称
+ *  频道名称
  */
 @property (nonatomic, copy) NSString *name;
 
