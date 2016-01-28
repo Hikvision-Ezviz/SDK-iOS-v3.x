@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'EzvizOpenSDK'
-  s.version      = '3.1'
+  s.version      = '3.3'
   s.summary      = 'The library and public headers of EzvizOpenSDK'
   s.homepage     = 'https://open.ys7.com'
   s.license      = 'MIT'
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Headers/*.h'
   s.vendored_library = 'libEZOpenSDK.a'
   s.library = 'stdc++.6.0.9'
-  s.source_files = 'Headers/*h'
+  s.source_files = 'Headers/*.h'
   s.frameworks = 'CoreMedia','AudioToolbox','MobileCoreServices','SystemConfiguration','OpenAL','GLKit','VideoToolbox'
 
 end
